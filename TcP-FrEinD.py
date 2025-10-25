@@ -261,7 +261,7 @@ async def TcPOnLine(ip, port, key, iv, AutHToKen, reconnect_delay=0.5):
                                 await SEndPacKeT(whisper_writer , online_writer , 'ChaT' , JoinCHaT)
 
 
-                                message = f'[B][C]{get_random_color()}\n- WeLComE To Emote Bot ! \n\n{get_random_color()}- Commands : @a {xMsGFixinG('123456789')} {xMsGFixinG('909000001')}\n\n[00FF00]Dev : @{xMsGFixinG('JNL-CODEX')}'
+                                message = f"[B][C]{get_random_color()}\n- WeLComE To Emote Bot ! \n\n{get_random_color()}- Commands : @a {xMsGFixinG('123456789')} {xMsGFixinG('909000001')}\n\n[00FF00]Dev : @{xMsGFixinG('JNL-CODEX')}"
                                 P = await SEndMsG(0 , message , OwNer_UiD , OwNer_UiD , key , iv)
                                 await SEndPacKeT(whisper_writer , online_writer , 'ChaT' , P)
                             except:
