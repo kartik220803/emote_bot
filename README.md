@@ -82,19 +82,6 @@ pkill -f TcP-FrEinD.py
 
 ## Troubleshooting
 
-### Protobuf version mismatch error
-If you see `VersionError: Detected mismatched Protobuf Gencode/Runtime major versions`:
-```bash
-# Activate your venv first
-source venv/bin/activate
-
-# Upgrade protobuf to version 6.x
-pip install --upgrade "protobuf>=6.30.0"
-
-# Then run the bot
-./start_bot.sh
-```
-
 ### Permission denied error
 ```bash
 chmod +x start_bot.sh

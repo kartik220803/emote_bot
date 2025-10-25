@@ -36,9 +36,7 @@ fi
 
 # Install all required Python modules
 echo "Installing required Python modules..."
-"$PYTHON_BIN" -m pip install requests psutil PyJWT urllib3 pytz aiohttp protobuf-decoder cfonts pycryptodome
-# Install protobuf 6.x to match the generated protobuf files
-"$PYTHON_BIN" -m pip install "protobuf>=6.30.0"
+"$PYTHON_BIN" -m pip install requests psutil PyJWT urllib3 pytz aiohttp protobuf protobuf-decoder cfonts pycryptodome
 
 echo "========================================="
 echo "Starting TcP-FrEinD.py with auto-restart..."
